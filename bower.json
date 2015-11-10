@@ -1,0 +1,21 @@
+{
+  "name": "sassy-local-quotes",
+  "authors": [
+    "Alexander D'Este <alexander.deste@gmail.com>"
+  ],
+  "description": "easily get the correct quotes used in your supported languages",
+  "main": "_local-quotes.scss",
+  "moduleType": [],
+  "keywords": [
+    "SCSS"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

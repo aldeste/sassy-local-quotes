@@ -1,0 +1,14 @@
+@import "languages";
+@import "quotestyles";
+
+// Takes your languages and applies correct quotes to each one, if the language
+// is supported.
+@each $language in $languages {
+  @if map-has-key($supported-languages, $language)
+  {
+    :lang(#{$language}) q,
+    :lang(#{$language}) blockquote {
+      @extend %quote-style-#{map-get($supported-languages, $language)};
+    }
+  }
+}
